@@ -32,7 +32,7 @@ class App extends React.Component {
           });
         });
       }
-      this.setState({ curregit ntUser: userAuth });
+      this.setState({ currentUser: userAuth });
     });
   }
 
