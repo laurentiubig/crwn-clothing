@@ -24,7 +24,7 @@ const StripeCheckoutButton = ({ price }) => {
         alert('There was an issue with your payment.')
       });
   };
-
+ 
   return (
     <StripeCheckout
       label="Pay Now"
